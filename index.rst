@@ -1,20 +1,20 @@
-.. Bifrost documentation master file, created by
-   sphinx-quickstart on Wed Jul 21 10:13:00 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Overview
+========
 
-Welcome to Bifrost's documentation!
-===================================
+.. note::
+   - TODO: 如何贡献文档  
+   - TODO: 内容跳转
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Pallets
+   :glob:
 
+   pallets/*
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Tips
+   :glob:
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   tips/*
