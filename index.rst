@@ -8,6 +8,18 @@ Welcome to my blog!
    docs/tech/*
 
 .. toctree::
+   :caption: Math
+   :glob:
+
+   docs/math/*
+
+.. toctree::
+   :caption: Defi
+   :glob:
+
+   docs/defi/*
+
+.. toctree::
    :caption: Misc
    :glob:
 
