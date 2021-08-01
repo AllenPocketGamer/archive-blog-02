@@ -14,7 +14,7 @@ Welcome to my blog!
    docs/math/*
 
 .. toctree::
-   :caption: Defi
+   :caption: DeFi
    :glob:
 
    docs/defi/*
