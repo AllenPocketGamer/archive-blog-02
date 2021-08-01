@@ -4,11 +4,15 @@
 
 TODO: 前言
 
+函数极限
+========
+
+在自变量的某个 ``变化过程`` 中, 如果对应的函数值无限接近于某个 ``确定的数`` , 那么这个 ``确定的数`` 就叫做在这一 ``变化过程`` 中函数的 ``极限``.
+
 .. Important::
-    **函数极限**: 在自变量的某个 ``变化过程`` 中, 如果对应的函数值无限接近于某个 ``确定的数`` , 
-    那么这个 ``确定的数`` 就叫做在这一 ``变化过程`` 中函数的 ``极限``.
-    
-    **定义1**: 设函数 :math:`f(x)` 在点 :math:`x_0` 点某一 ``去心邻域`` 内有定义. 如果存在常数 :math:`A` ,
+    .. centered:: 自变量趋于有限值时函数当极限
+
+    **定义(1-1)**: 设函数 :math:`f(x)` 在点 :math:`x_0` 点某一 ``去心邻域`` 内有定义. 如果存在常数 :math:`A` ,
     对于任意给定的正数 :math:`\epsilon` (不论它多么小), 总存在正数 :math:`\delta` , 使得当 :math:`x`
     满足不等式 :math:`0<|x - x_0| < \delta` 时, 对应的函数值 :math:`f(x)` 都满足不等式
         
@@ -16,7 +20,32 @@ TODO: 前言
         
     那么常数 :math:`A` 就叫做函数 :math:`f(x)` 当 :math:`x\rightarrow x_0` 时的 ``极限`` , 记作
     
-    .. centered:: :math:`\lim_{x\to x_0}f(x) = A` 或 :math:`f(x)\rightarrow A(当x\rightarrow x_0)` 
+    .. centered:: :math:`\lim_{x\to x_0}f(x)=A` 或 :math:`f(x)\rightarrow A(当x\rightarrow x_0)` 
+
+    上述定义可以简单的表述为:
+
+    .. math::
+        \lim_{x\to x_0}f(x)=A \Leftrightarrow \forall \epsilon > 0, \exists \delta > 0,
+        当 0 < |x - x_0| < \delta 时, 有 |f(x) - A| < \epsilon
+
+    .. centered:: 自变量趋于无穷大时函数当极限
+
+    **定义(1-2)**: 设函数 :math:`f(x)` 当 :math:`|x|` 大于某一正数时有定义. 如果存在常数 :math:`A` ,
+    对于任意给定的正数 :math:`\epsilon` (不论它多么小), 总存在正数 :math:`X` , 使得当 :math:`x`
+    满足不等式 :math:`|x| > X` 时, 对应的函数值 :math:`f(x)` 都满足不等式
+
+    .. centered:: :math:`|f(x) - A| < \epsilon`
+
+    那么常数 :math:`A` 就叫做函数 :math:`f(x)` 当 :math:`x\rightarrow \infty` 时的 ``极限`` , 记作
+
+    .. centered:: :math:`\lim_{x\to\infty}f(x)=A` 或 :math:`f(x)\rightarrow A(当x\rightarrow\infty)`
+
+    上述定义可以简单当表述为:
+
+    .. math::
+        \lim_{x\to\infty}f(x)=A \Leftrightarrow \forall \epsilon > 0, \exists X > 0,
+        当 |x| > X 时, 有 |f(x) - A| < \epsilon
+
 
 TODO: 无穷大与无穷小
 
