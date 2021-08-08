@@ -1,0 +1,44 @@
+******************
+【微积分】1-2 无穷
+******************
+
+无穷小与无穷大
+--------------
+
+.. Important::
+
+    .. centered:: 无穷小
+
+    **定义(1-3)**: 如果函数 :math:`f(x)当x\rightarrow x_0(或x\rightarrow\infty)` 时的极限为零,
+    那么称函数 :math:`f(x)` 为当 :math:`x\rightarrow x_0(或x\rightarrow\infty)` 时的 ``无穷小``.
+
+    **定理(1-5)**: 在自变量的同一变化过程 :math:`x\rightarrow x_0(或x\rightarrow\infty)` 中,
+    函数 :math:`f(x)` 具有极限 :math:`A` 的充分必要条件是 :math:`f(x) = A + \alpha` , 其中 :math:`\alpha` 是无穷小.
+
+        **证明**:
+
+        充分性: :math:`\lim_{x\to x_0}f(x)=A\Rightarrow f(x) = A + \alpha`
+
+        :math:`\because \forall\epsilon > 0, \exists\delta > 0, 当|x - x_0| < \delta时` , 有
+
+        .. centered:: :math:`|f(x) - A| < \epsilon`
+
+        令 :math:`\alpha = f(x) - A` , 则有 :math:`|\alpha - 0| < \epsilon` , 那么
+
+        .. centered:: :math:`\lim_{x\to x_0}\alpha = 0`
+
+        这就证明了 :math:`f(x)在x\rightarrow x_0(或x\rightarrow\infty)` 时等价于 :math:`A + \alpha`
+
+        **必要性**:
+
+            简单, 略
+
+    .. centered:: 无穷大
+
+    **定义(1-4)**: 设函数 :math:`f(x)在x_0的某一去心邻域内有定义(或|x|大于某一正数时有定义).`
+    如果对于任意给定的正数 :math:`M(不论它多么大)` , 总存在正数 :math:`\delta(或正数X)`, 只要
+    :math:`x` 适合不等式 :math:`0<|x - x_0| < \delta(或|x| > X)` , 对应的函数值 :math:`f(x)` 总满足不等式
+ 
+    .. centered:: :math:`|f(x)| > M`
+
+    则称函数 :math:`f(x)` 为当 :math:`x\rightarrow x_0(或x\rightarrow\infty)` 时的无穷大.
