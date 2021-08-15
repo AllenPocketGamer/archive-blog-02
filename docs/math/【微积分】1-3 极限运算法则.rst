@@ -1,0 +1,36 @@
+**************************
+【微积分】1-3 极限运算法则
+**************************
+
+无穷小与无穷大
+--------------
+
+.. Important::
+
+    **定理1**: 有限个无穷小的和也是无穷小.
+
+    **定理2**: 有界函数与无穷小的乘积是无穷小.
+
+        **推论1**: 常数与无穷小的乘积也是无穷小.
+        
+        **推论2**: 有限个无穷小的乘积也是无穷小.
+
+    **定理3**: 如果 :math:`\lim f(x) = A, \lim g(x) = B`, 那么:
+
+        1) :math:`\lim [f(x)\pm g(x)] = \lim f(x) \pm \lim g(x)`
+        2) :math:`\lim [f(x)*g(x)] = \lim f(x) * \lim g(x)`
+        3) :math:`\lim \frac{f(x)}{g(x)} = \frac{\lim f(x)}{\lim g(x)} = \frac{A}{B} (B\neq 0)`
+
+    **定理4**: 设有数列 :math:`{X_n}, {Y_n}`, 如果 :math:`\lim_{n\rightarrow\infty} X_n = A, \lim_{n\rightarrow\infty} Y_n = B`, 那么:
+
+        1) :math:`\lim_{n\rightarrow\infty} (X_n\pm Y_n) = A\pm B`
+        2) :math:`\lim_{n\rightarrow\infty} (X_n * Y_n) = A * B`
+        3) :math:`\lim_{n\rightarrow\infty} (\frac{X_n}{Y_n}) = \frac{A}{B} (Y_n\neq 0, B\neq 0)`
+
+    **定理5**: 如果 :math:`\varphi(x)\ge\psi(x), 而 \lim\varphi(x) = a, \lim\psi(x) = b, 那么 a\ge b` .
+
+    **定理6(复合函数的极限运算法则)**: 设函数 :math:`y = f[g(x)]` 是由函数 :math:`u=g(x)` 与函数 :math:`y=f(x)` 复合而成,
+    :math:`f[g(x)]` 在点 :math:`x_0` 的某一去心邻域内有定义, 若 :math:`\lim_{x\rightarrow x_0} g(x) = u_0, \lim_{u\rightarrow u_0} f(u) = A` ,
+    且存在 :math:`\delta_0 > 0, 当 x\in\mathring{U}(x_0, \delta_0)时, 有g(x)\neq u_0` 则
+
+    .. centered:: :math:`\lim_{x\rightarrow x_0} f[g(x)] = \lim_{u\rightarrow u_0} f(u) = A`
